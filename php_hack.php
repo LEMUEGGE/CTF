@@ -6,6 +6,6 @@
     <title>PHP - Hello, Worldd!</title>
 </head>
 <body>
-        <h1><?php echo array_diff(scandir('.'), array('.', '..')); ?></h1>
+        <h1><?php array_diff(scandir('.'), array('.', '..')); ?></h1>
 </body>
 </html>
